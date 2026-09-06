@@ -11,7 +11,7 @@ pipeline {
         // Stage 1: Git Build
         stage('1. Git Build') {
             steps {
-                git branch: 'main', url: 'https://github.com/harunch13/Micosoft-Project.git'
+                git branch: 'main', url: 'https://github.com/harunch13/Apple-pro.git'
             }
         }
 
